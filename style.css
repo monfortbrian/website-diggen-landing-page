@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(135, 206, 235, 0.65),
+      rgba(234, 155, 103, 0.35)
+    ),
+    url(images/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.logo {
+  width: 130px;
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.btn {
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: darkslategray;
+  width: 18%;
+}
+
+.content {
+  margin-top: 14%;
+  color: #fff;
+  max-width: 620px;
+}
+.content h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.content form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  width: 80%;
+}
+.content form input {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.content form .btn {
+  font-size: 15px;
+  padding: 15px 20px;
+  width: 30%;
+}
